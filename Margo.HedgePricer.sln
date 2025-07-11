@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margo.HedgePricer.Console", "Margo.HedgePricer.Console\Margo.HedgePricer.Console.csproj", "{75661872-F66A-475D-BDC7-04AE291AF0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margo.HedgePricer.Core", "Margo.HedgePricer.Core\Margo.HedgePricer.Core.csproj", "{7DF047EF-D103-4008-88D2-72BFCF380879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margo.HedgePrice.Tests", "Margo.HedgePrice.Tests\Margo.HedgePrice.Tests.csproj", "{6737116F-6203-4073-9D1C-E30746E6FC7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75661872-F66A-475D-BDC7-04AE291AF0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75661872-F66A-475D-BDC7-04AE291AF0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75661872-F66A-475D-BDC7-04AE291AF0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75661872-F66A-475D-BDC7-04AE291AF0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF047EF-D103-4008-88D2-72BFCF380879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF047EF-D103-4008-88D2-72BFCF380879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF047EF-D103-4008-88D2-72BFCF380879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF047EF-D103-4008-88D2-72BFCF380879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6737116F-6203-4073-9D1C-E30746E6FC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6737116F-6203-4073-9D1C-E30746E6FC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6737116F-6203-4073-9D1C-E30746E6FC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6737116F-6203-4073-9D1C-E30746E6FC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B861AEC3-0BA3-42D6-87F3-3617D5EEB23E}
+	EndGlobalSection
+EndGlobal
